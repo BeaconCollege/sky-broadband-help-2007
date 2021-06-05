@@ -1,0 +1,2 @@
+ *{ behavior: url(library/css/iepngfix.htc); }
+ #PopupContent div.close {float:none;width:79px;position:absolute;right:40px;}

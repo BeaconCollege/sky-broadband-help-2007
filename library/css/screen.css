@@ -1,0 +1,233 @@
+/*** HTML ELEMENTS ***/
+html    {height:100%;}
+body    {background:#fff;margin:0 0 5px 0;padding:0;text-align:center;font-family:Verdana;font-size:70%;color:#666;}
+img     {vertical-align:middle;border:0;}
+p       {margin:0 0 12px 0;line-height:140%;}
+ol      {margin:15px 0 12px 35px;padding:0;}
+ul      {margin:15px 0 12px 15px;padding:0;}
+li      {margin:0 0 4px 0;line-height:140%;}
+ul.hidden 				{list-style-type:none;padding:none;margin:none;}
+ul.disc li 				{list-style-type:disc;padding:none;margin:none;margin-left:17px;margin-top:12px;}
+ul.disc li a			{color:#000000;}
+a						{color:#000000;}
+
+/*** NAVIGATION ***/
+ul#nav                              {list-style-type:none;overflow:hidden;margin:0 0 0 7px;padding:0;clear:both;}
+ul#nav li                           {display:inline;float:left;overflow:hidden;}
+ul#nav li a                         {text-indent:-1000em;font-size:.1em;height:22px;display:block;overflow:hidden;}
+ul#nav li a#nav0                    {background-image:url("../images/presentation/nav/nav0.gif");width:39px;left:0;}
+ul#nav li a#nav1                    {background-image:url("../images/presentation/nav/nav1.gif");width:163px;left:43px;}
+ul#nav li a#nav2                    {background-image:url("../images/presentation/nav/nav2.gif");width:129px;left:226px;}
+ul#nav li a#nav3                    {background-image:url("../images/presentation/nav/nav3.gif");width:169px;left:408px;}
+ul#nav li a#nav4                    {background-image:url("../images/presentation/nav/nav4.gif");width:161px;left:523px;}
+ul#nav li a#nav5                    {background-image:url("../images/presentation/nav/nav5.gif");width:118px;left:641px;}
+ul#nav li.selected a, ul li a:hover {background-position:0 -23px;}
+
+/*** LAYOUT ***/
+#header         {background:url("../images/presentation/headings/pageTitle.gif");width:794px;height:98px;text-align:left;}
+div#frameTop    {background:url("../images/presentation/decoration/bgFrameTop.gif") no-repeat;width:794px;height:6px;font-size:.01em;margin:3px 0 0 0;}
+div#frameBody   {background:url("../images/presentation/decoration/bgFrameBody.gif");width:794px;}
+div#frameBot    {background:url("../images/presentation/decoration/bgFrameBot.gif");width:794px;height:22px;}
+#content        {padding:36px 36px 36px 36px;text-align:left;}
+#container      {margin:auto;width:794px;}
+#footer         {border:1px solid #e5e5e5;border-left:none;border-right:none;background:#fcfcfc;height:50px;margin:30px 0 0 0;}
+#footerText     {width:794px;margin:auto;text-align:left;font-size:90%;padding:10px 0 0 0;}
+#footerText a   {color:#666;text-decoration:none;}
+#copyright      {float:left;}
+#contact        {float:right;}
+
+/*** HEADINGS ***/
+h1, clear       {background-repeat:no-repeat;text-indent:-1000em;margin:0 0 20px 0;clear:both;font-size:.1em;height:23px;}
+h2, h3, h4      {font-size:100%;margin:0 0 14px 0;}
+
+h1.pageTitle                    {background-image:url("../images/presentation/headings/h1pageTitle.gif");}
+h1.home                         {background-image:url("../images/presentation/headings/h1home.gif");}
+h1.helpUpdate                   {background-image:url("../images/presentation/headings/h1HelpUpdate.gif");width:292px;}
+h1.connecting                   {background-image:url("../images/presentation/headings/h1connecting.gif");}
+h1.usingTheInternet             {background-image:url("../images/presentation/headings/h1usingTheInternet.gif");}
+h1.usingSkyEmail                {background-image:url("../images/presentation/headings/h1usingSkyEmail.gif");}
+h1.settingUpWireless            {background-image:url("../images/presentation/headings/h1settingUpWireless.gif");}
+h1.stayingSecure                {background-image:url("../images/presentation/headings/h1stayingSecure.gif");}
+h1.skyanytime                	{background-image:url("../images/presentation/headings/h1skyanytime.gif");}
+h1.contactTechnicalSupport      {background-image:url("../images/presentation/headings/h1contactTechnicalSupport.gif");}
+h1.skyWirelessRouterSettings    {background-image:url("../images/presentation/headings/h1skyWirelessRouterSettings.gif");}
+h1.forgottenPassword            {background-image:url("../images/presentation/headings/h1forgottenPassword.gif");}
+h1.testVirusScan                {background-image:url("../images/presentation/headings/h1testVirusScan.gif");}
+h1.troubleshooting              {background-image:url("../images/presentation/headings/h1troubleshooting.gif");}
+h1.outlook                      {background-image:url("../images/presentation/headings/h1outlook.gif");}
+h1.outlookExpress               {background-image:url("../images/presentation/headings/h1outlookExpress.gif");}
+h1.outlook2007                  {background-image:url("../images/presentation/headings/h1outlook2007.gif");}
+h1.windowsMail                  {background-image:url("../images/presentation/headings/h1windowsMail.gif");}
+h1.mail                         {background-image:url("../images/presentation/headings/h1mail.gif");}
+h1.entourage                    {background-image:url("../images/presentation/headings/h1entourage.gif");}
+h1.stepByStepGuide              {background-image:url("../images/presentation/headings/h1stepByStepGuide.gif");}
+h1.checkConnection              {background-image:url("../images/presentation/headings/h1checkConnection.gif");}
+h1.checkSettings                {background-image:url("../images/presentation/headings/h1checkSettings.gif");}
+h1.step1                        {background-image:url("../images/presentation/headings/h1step1.gif");}
+h1.step2                        {background-image:url("../images/presentation/headings/h1step2.gif");}
+h1.step3                        {background-image:url("../images/presentation/headings/h1step3.gif");}
+h1.step4                        {background-image:url("../images/presentation/headings/h1step4.gif");}
+h1.step5                        {background-image:url("../images/presentation/headings/h1step5.gif");}
+h1.step6                        {background-image:url("../images/presentation/headings/h1step6.gif");}
+h1.step7                        {background-image:url("../images/presentation/headings/h1step7.gif");}
+h1.connectingMicroFilters		{background-image:url("../images/presentation/headings/h1connectingmicrofilters.gif");}
+h1.connectingMicro				{background-image:url("../images/presentation/headings/h1connectingmicro.gif");}
+h1.connectingMicroExtSocket		{background-image:url("../images/presentation/headings/h1connectingMicroExtSocket.gif");height:51px;}
+h1.ConnectingMicroPreFiltered	{background-image:url("../images/presentation/headings/h1connectingMicroPreFilter.gif");}
+h1.checkIPWindowsXP				{background-image:url("../images/presentation/headings/h1checkipwindowsxp.gif");}
+h1.checkIPWindowsVista			{background-image:url("../images/presentation/headings/h1checkipVista.gif");}
+h1.checkNetworkConnectionXP		{background-image:url("../images/presentation/headings/h1checkNetworkConnectionXP.gif");}
+h1.checkNetworkConnectionVista	{background-image:url("../images/presentation/headings/h1checkNetworkConnVista.gif");}
+h1.h1checkWebBrowserSettingsXP	{background-image:url("../images/presentation/headings/h1checkWebBrowserSettingsXP.gif");}
+h1.h1checkWebBrowserSettingsVista	{background-image:url("../images/presentation/headings/h1checkWebSettingsVista.gif");}
+h1.checkWirelessRouterSettings	{background-image:url("../images/presentation/headings/h1checkWirelessRouter.gif");}
+h1.h1checkSpeedBroadbandCon		{background-image:url("../images/presentation/headings/h1checkSpeedBroadbandCon.gif");}
+h1.h1hintstips					{background-image:url("../images/presentation/headings/h1hintstips.gif");}
+h1.h1switchingWirelessWEPXP		{background-image:url("../images/presentation/headings/h1switchingwep.gif");height:51px;}
+h1.h1switchingWirelessWEPVista	{background-image:url("../images/presentation/headings/h1switchingwepVista.gif");height:51px;}
+h1.h1connectingpcwirelessly		{background-image:url("../images/presentation/headings/h1connectingpcwirelessly.gif");}
+h1.h1connectingpcwirelesslyVista{background-image:url("../images/presentation/headings/h1connectingpcwirelessVista.gif");}
+h1.h1checkwncxp					{background-image:url("../images/presentation/headings/h1check_wnc_xp.gif");height:51px;}
+h1.h1checkwncvista				{background-image:url("../images/presentation/headings/h1check_wnc_vista.gif");height:51px;}
+h1.h1switchoffwireless			{background-image:url("../images/presentation/headings/h1switchoffwireless.gif");}
+h1.h1windowsWirelessZero		{background-image:url("../images/presentation/headings/h1windowswirelesszero.gif");height:51px;}
+
+h2#header_connectingUsingWEP{background:url("../images/presentation/headings/h2connectingUsingwep.gif") no-repeat; height:15px;text-indent:-5000em;clear:both;margin:14px 0;}
+
+
+
+.troubleshooting				{padding-bottom:20px;}
+.gettingMoreOut					{padding:30px 0 20px 0;}
+
+/*** GUIDE TEMPLATE ***/
+div.steps                 {background:url("../images/presentation/decoration/bgDots.gif") repeat-x top;padding-top:1px;}
+div.header_connectingUsingWEP{background:none;margin-top:2em;padding-top:5px;}
+ol.steps                  {margin:0 0 0 0;padding:0;list-style:none;}
+div.header_connectingUsingWEP ol.steps {background:url("../images/presentation/decoration/bgDots.gif") repeat-x top;padding-top:1px;}
+span.stepNum              {width:39px;height:21px;display:block;text-indent:-1000em;float:left;background-repeat:no-repeat;font-size:.01em;}
+span.step1                {background-image:url("../images/presentation/numbers/1.gif");}
+span.step2                {background-image:url("../images/presentation/numbers/2.gif");}
+span.step3                {background-image:url("../images/presentation/numbers/3.gif");}
+span.step4                {background-image:url("../images/presentation/numbers/4.gif");}
+span.step5                {background-image:url("../images/presentation/numbers/5.gif");}
+span.step6                {background-image:url("../images/presentation/numbers/6.gif");}
+span.step7                {background-image:url("../images/presentation/numbers/7.gif");}
+span.step8                {background-image:url("../images/presentation/numbers/8.gif");}
+span.step9                {background-image:url("../images/presentation/numbers/9.gif");}
+span.step10               {background-image:url("../images/presentation/numbers/10.gif");}
+span.step11               {background-image:url("../images/presentation/numbers/11.gif");}
+span.step12               {background-image:url("../images/presentation/numbers/12.gif");}
+span.step13               {background-image:url("../images/presentation/numbers/13.gif");}
+span.step14               {background-image:url("../images/presentation/numbers/14.gif");}
+span.step15               {background-image:url("../images/presentation/numbers/15.gif");}
+span.step16               {background-image:url("../images/presentation/numbers/16.gif");}
+span.step17               {background-image:url("../images/presentation/numbers/17.gif");}
+span.step18               {background-image:url("../images/presentation/numbers/18.gif");}
+span.step19               {background-image:url("../images/presentation/numbers/19.gif");}
+span.step20               {background-image:url("../images/presentation/numbers/20.gif");}
+li.step                   {background:url("../images/presentation/decoration/bgGuideStep.gif") repeat-x bottom;clear:both;padding:22px 0 0 0;}
+li.step a                 {color:#000;}
+div.stepCopy              {float:left;padding:9px 0 0 0;width:643px;}
+div.stepCopy .stepImage   {margin:0 0 20px 0;}
+div.stepCopy p            {margin:0 0 18px 0;}
+div.stepImage             {text-align:center;clear:both;}
+div.stepImageRight        {float:right;width:auto;}
+div.stepImageLeft		  {float:left;width:auto;}
+div.stepImageLeft p       {color:#000;}
+div.stepImageLeft p a	  {color:#000 !important;}
+div.stepImage  img        {margin:0px 0 18px 0;}
+div#guide h2              {margin:20px 0 15px 0;}
+p.guideIntro              {font-weight:bold;background:url("../images/presentation/decoration/bgIntro.gif") repeat-x bottom;padding:0 0 25px 0;margin:0;}
+div#guide div.intro p     {margin:0 0 20px 0;}
+div.note                  {margin:15px 0 0 0;}
+#guide p a				  {color:#000000;}
+
+p#twoandone,p#twoandtwo,p#oneandtwo		{border-top:1px solid #adadad;margin-top:1em;padding-top:2em;}
+
+/*** QA TEMPLATE ***/
+#qas                            {background:url("../images/presentation/decoration/bgDots.gif") repeat-x top;padding-top:1px;}
+div.qaIntro                     {background:url("../images/presentation/icons/iconQuickTip.gif") no-repeat;padding:0 0 20px 40px;width:690px;}
+.qa                             {font-size:100%;position:relative;clear:both;}
+.qa a.open, .qa a.close         {position:absolute;left:655px;top:9px;}
+.question a                     {text-decoration:none;color:#666;}
+.question                       {background:#fff url("../images/presentation/decoration/bgQuestion.gif") repeat-x bottom;padding:10px;}
+.questionOn                     {background:#70c0dc url("../images/presentation/decoration/bgQuestionOn.gif") repeat-x bottom;padding:10px;color:#fff;}
+.question .text,
+.questionOn .text               {width:630px;display:block;}
+.questionOn a                   {text-decoration:none;color:#fff;}
+.question h2, .questionOn h2    {font-size:100%;margin:0;}
+a.open                          {background:url("../images/presentation/buttons/buttOpen.gif");width:52px;height:17px;text-indent:-1000em;overflow:hidden;}
+a.close                         {background:url("../images/presentation/buttons/buttClose.gif");width:52px;height:17px;text-indent:-1000em;overflow:hidden;}
+.answer                         {background:#cce9f3 url("../images/presentation/decoration/bgAnswer.gif") repeat-x bottom;padding:10px;padding-bottom:0;/*display:none;*/width:702px;}
+.answer a                       {color:#666;}
+.answer p                       {padding:0 0 12px 0;margin:0 0 0 0;line-height:150%;} 
+.answer ul                      {margin:0 0 0 20px;padding:0 0 12px 0;clear:both;}
+.answer ol                      {margin:0 0 0 28px;padding:0 0 12px 0;clear:both;}
+.answer ol ul, .answer ol ol    {margin-top:10px !important;margin-bottom:-10px !important;}
+.answer ol ul li, .answer ol ol li  {margin-bottom:5px;}
+.answer li                      {margin:0 0 12px 0;line-height:150%;}
+.answer ul.discNoMargin li { margin:0;padding:0;list-style-type:disc; }
+.answer h3                      {font-size:100%;margin:0 0 15px 0;}
+.answer .image                  {float:left;margin:0 10px 10px 0;}
+.answer .imageSkyGame	{ float:left;position:relative;margin:10px 0px 10px 0; width:219px; }
+.answer .imageSkyGame div	{ margin-top:5px; }
+.answer img                     {border:1px solid #c4c4c4;vertical-align:middle}
+.answer .text					{float:left;width:700px;}
+.answer .text2					{float:left;width:500px;}
+div.clear                       {clear:both;font-size:.01em;}
+ul#breadcrumbs                  {margin:0;padding:0 0 40px 0;color:#000;}
+ul#breadcrumbs li               {float:left;list-style:none;margin:0 10px 0 0;}
+ul#breadcrumbs  a               {color:#adadad;}
+
+/*** HOME PAGE ***/
+div#homeContent             {background:url("../images/presentation/decoration/bgHome.gif");width:706px;height:492px;position:relative;top:50px;left:5px;position:relative;margin-top:-40px;}
+div#homeContent h2          {margin:0;}
+div#homeTsr1                {background:url("../images/presentation/home/homeTsr1Img.gif") no-repeat;width:213px;height:138px;position:absolute;top:40px;}
+div#homeTsr1 a              {background:url("../images/presentation/home/homeTsr1Lnk.gif") no-repeat 0 107px;width:213px;height:138px;}
+div#homeTsr2                {background:url("../images/presentation/home/homeTsr2Img.gif") no-repeat;width:213px;height:153px;position:absolute;left:250px;}
+div#homeTsr2 a              {background:url("../images/presentation/home/homeTsr2Lnk.gif") no-repeat 0 147px;width:213px;height:178px;}
+div#homeTsr3                {background:url("../images/presentation/home/homeTsr3Img.gif") no-repeat;width:218px;height:138px;top:40px;left:500px;}
+div#homeTsr3 a              {background:url("../images/presentation/home/homeTsr3Lnk.gif") no-repeat 0 107px;width:215px;height:138px;}
+div#homeTsr4                {background:url("../images/presentation/home/homeTsr4Img.gif") no-repeat;width:215px;height:150px;top:275px;left:105px;}
+div#homeTsr4 a              {background:url("../images/presentation/home/homeTsr4Lnk.gif") no-repeat 0 118px;width:213px;height:150px;}
+div#homeTsr5                {background:url("../images/presentation/home/homeTsr5Img.gif") no-repeat;width:210px;height:110px;top:275px;left:400px;}
+div#homeTsr5 a              {background:url("../images/presentation/home/homeTsr5Lnk.gif") no-repeat 0 118px;width:213px;height:150px;}
+div#tsrs div                {position:absolute;}
+div#tsrs div a              {display:block;display:block;text-indent:-1000em;margin:0;overflow:auto;}
+div#tsrs div p              {margin:0;}
+
+/*** HELP UPDATE POPUP ***/
+/*The transparent overlay */
+#overlay	                {position:absolute;top:0;left:0;z-index:90;width:100%;height:100%;background-color:#a6bec9;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6; }
+#lightbox	                {position:absolute;top:31%;left:0;width:100%;z-index:100;text-align:center;line-height:0; }
+#PopupContainer	            {background:url(../images/presentation/home/homeUpdateBg.png) no-repeat;width:535px;height:248px;margin:0 auto;line-height:1em; text-align:left; }
+#PopupContainer #PopupContent {padding:12px 27px 0 12px;}
+/* Content */
+#PopupContent div.h1        {float:left;width:312px;height:22px;padding:22px 0 10px 35px;display:inline;}
+#PopupContent div.h1 h1     {margin:0;}
+#PopupContent div.close     {float:right;width:79px;}
+#PopupContent a#close       {display:block;background:url(../images/presentation/home/buttUpdateClose.gif) no-repeat;width:79px;height:25px;cursor:hand;}
+#PopupContent div.hr        {background:url(../images/presentation/decoration/hr.gif) no-repeat; height:3px;width:481px;font-size:.1em;margin:0;padding:0;}
+#PopupContent div.HelpUpdateText {background:url(../images/presentation/home/helpUpdateTextBox.gif) no-repeat;width:509px;height:78px;text-indent:-1000em;margin:0px;clear:both;font-size:.1em;}
+#PopupContent div.answers   {margin:10px 0 0 80px; }
+#PopupContent a#yes         {display:block;background:url(../images/presentation/home/homeHelpUpdateYes.gif) no-repeat;width:279px;height:16px;cursor:hand;}
+#PopupContent a#no          {display:block;background:url(../images/presentation/home/homeHelpUpdateNo.gif) no-repeat;width:102px;height:16px;margin-top:14px;cursor:hand;}
+
+
+/* Microfilter Page */
+
+.connectingMicroInfo		{width:705px;background:url("../images/guides/bg_microfilter.gif") bottom repeat-y;border-top:dotted 1px;}
+.connectingMicroInfoBtm		{border-bottom:dotted 1px;}
+.connectingMicroInfo img	{float:left;width:174px;padding:25px 0 25px 0;}
+.connectingMicroInfoTxt		{float:left;width:510px;padding:25px 0 0 15px;}
+
+ .floatleft			{float:left;margin:0 10px 0 0;}
+ 
+ .prefiltered       {background:url(../../library/images/guides/prefiltered_socket.jpg) no-repeat;}
+ .prefiltered p	    {margin-left:190px !important;}
+ 
+ .MicroExtSocket    {background:url(../../library/images/guides/extension_socket.jpg) no-repeat;}
+ 
+ .MicroExtSocket p, .MicroExtSocket ul {margin-left:190px !important;}
+ 
+.hiddenText	{text-indent:-1000em;font-size:.1em;height:22px;display:block;overflow:hidden;}
